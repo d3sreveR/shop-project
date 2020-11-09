@@ -1,1 +1,19 @@
 /* CSS custom styles */
+
+footer a:link {
+    color: white;
+  }
+
+  footer a:visited {
+    color: white;
+  }
+
+  footer a:hover {
+    color: rgb(226, 226, 226);
+  }
+
+  footer a:active {
+    color: white;
+  }
+
+
