@@ -2,75 +2,89 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="/./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
-    <!-- Navigation Bar -->
+  <!-- Navigation Bar -->
 
 
-    <nav>
-        <div class="nav-wrapper teal lighten-2">
-            <div class="container">
-                <a href="index.html" class="brand-logo">Logo</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+  <nav>
+    <div class="nav-wrapper teal lighten-2">
+      <div class="container">
+        <a href="./../index.html" class="brand-logo">Logo</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
 
-                    <li><a href="store.html">Продавница</a></li>
-                    <li><a href="about.html">За нас</a></li>
-                </ul>
+          <li><a href="./../store.html">Продавница</a></li>
+          <li><a href="./../about.html">За нас</a></li>
 
-            </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="./../store.html">Продавница</a></li>
+    <li><a href="./../about.html">За нас</a></li>
+  </ul>
 
-        </div>
-    </nav>
+  <!-- Main -->
+  <div class="container">
 
-<!-- Main -->
-    <div class="container">
+    <div>
+      <div class="row" id="proizvodi">
 
-
+      </div>
 
     </div>
 
 
 
+  </div>
 
-    <div class="divider teal lighten-4"></div>
-    <!-- Footer -->
-    <footer class="page-footer teal lighten-2">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Онлајн продавница за облека и обувки „Саркчик“</h5>
-                    <p class="grey-text text-lighten-4">Разни модели на палта, блузони, блузи, патики, кошули и пижами. Вршиме достава до врата во рок од 2 работни денови</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Контактирајте не </h5>
-                    <ul>
-                        <li> <a href="mailto: ivannacevski@hotmail.com" class="text-white"> Испрати ни е-маил</a></li>
-                        <li> <a href="https://www.facebook.com/sarah.temelkova" class="text-white"> Пронајди не на Фејсбук</a></li>
-                        <li> <a href="https://www.instagram.com/temelkova_photography/" class="text-white"> Погледни на Инстаграм</a></li>
-                        <li> <a href="tel: 0038978868825" class="text-white"> Контактирај не на Телефон</a></li>
-                    </ul>
-                </div>
-            </div>
+
+
+
+  <div class="divider teal lighten-4"></div>
+  <!-- Footer -->
+  <footer class="page-footer teal lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Онлајн продавница за облека и обувки „Саркчик“</h5>
+          <p class="grey-text text-lighten-4">Разни модели на палта, блузони, блузи, патики, кошули и пижами. Вршиме
+            достава до врата во рок од 2 работни денови</p>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2020 Online shopping Sarkchik
-                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-            </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Контактирајте не </h5>
+          <ul>
+            <li> <a href="mailto: ivannacevski@hotmail.com" class="text-white"> Испрати ни е-маил</a></li>
+            <li> <a href="https://www.facebook.com/sarah.temelkova" class="text-white"> Пронајди не на Фејсбук</a></li>
+            <li> <a href="https://www.instagram.com/temelkova_photography/" class="text-white"> Погледни на
+                Инстаграм</a></li>
+            <li> <a href="tel: 0038978868825" class="text-white"> Контактирај не на Телефон</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 Online shopping Sarkchik
+        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+      </div>
 
-            <!-- SCRIPTS -->
-            <script src="https://code.jquery.com/jquery-3.5.1.js"
-                integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            <script src="/./script.js"></script>
+      <!-- SCRIPTS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="/./script.js"></script>
+      <script src="palta.js"></script>
 </body>
 
 </html>
-
-

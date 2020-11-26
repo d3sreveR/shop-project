@@ -1,32 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>За нас</title>
+
 </head>
+
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="about.html">About</a></li>
+  <!-- Navigation Bar -->
+
+
+  <nav>
+    <div class="nav-wrapper teal lighten-2">
+      <div class="container">
+        <a href="index.html" class="brand-logo">Logo</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul  class="right hide-on-med-and-down">
+
+          <li><a href="store.html">Продавница</a></li>
+          <li><a href="about.html">За нас</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="store.html">Продавница</a></li>
+    <li><a href="about.html">За нас</a></li>
+  </ul>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="paralax.jpg"></div>
+  </div>
+
+  <div class="container">
+
+    <h1 class="center" style="padding-bottom: 1em;">За нас</h1>
+
+    <!-- info about you -->
+
+    <div class="row">
+      <div class="col s12 m12 l6 ">
+        <!-- info here -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit neque, dolorum assumenda doloribus
+          accusamus, adipisci consequuntur quis sequi delectus itaque, non nostrum a? Doloremque facilis porro omnis
+          obcaecati eum!</p>
+      </div>
+      <div class="col s0 m0 l6">
+        <img src="sara.jpg" width="450" class="materialboxed">
+        <!-- picture here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- low height paralax -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="paralax.jpg"></div>
+  </div>
+
+  <div class="container">
+    <h1 class="center" style="padding-top: 2em;">Get in touch</h1>
+
+    <div class="row" style="padding-bottom: 5em; padding-top: 2em;">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Име</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Презиме</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">емаил</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea2" class="materialize-textarea"></textarea>
+            <label for="textarea2">текст</label>
+          </div>
+        </div>
+
+
+
+
+        <button class="btn waves-effect waves-light teal lighten-2" id="submitFormButton" type="button"
+          name="action">испрати
+          <i class="material-icons right">send</i>
+        </button>
+      </form>
+    </div>
+
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="paralax.jpg"></div>
+  </div>
+
+
+  <div class="divider teal lighten-4"></div>
+  <!-- Footer -->
+  <footer class="page-footer teal lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Онлајн продавница за облека и обувки „Саркчик“</h5>
+          <p class="grey-text text-lighten-4">Разни модели на палта, блузони, блузи, патики, кошули и пижами. Вршиме
+            достава до врата во рок од 2 работни денови</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Контактирајте не </h5>
+          <ul>
+            <li> <a href="mailto: ivannacevski@hotmail.com" class="text-white"> Испрати ни е-маил</a></li>
+            <li> <a href="https://www.facebook.com/sarah.temelkova" class="text-white"> Пронајди не на Фејсбук</a></li>
+            <li> <a href="https://www.instagram.com/temelkova_photography/" class="text-white"> Погледни на
+                Инстаграм</a></li>
+            <li> <a href="tel: 0038978868825" class="text-white"> Контактирај не на Телефон</a></li>
           </ul>
         </div>
-      </nav>
-    
-
-    <div class="container">
-        <!-- Page Content goes here -->
-
       </div>
-    
-    
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 Online shopping Sarkchik
+        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+      </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
+      <!-- SCRIPTS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="script.js"></script>
+      <script src="aboutScript.js"></script>
+  
 </body>
+
 </html>

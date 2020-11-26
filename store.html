@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Продавница</title>
 </head>
 
 <body>
@@ -15,24 +15,30 @@
 
     <nav>
         <div class="nav-wrapper teal lighten-2">
-            <div class="container">
-                <a href="index.html" class="brand-logo">Logo</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-
-                    <li><a href="store.html">Продавница</a></li>
-                    <li><a href="about.html">За нас</a></li>
-                </ul>
-
-            </div>
-
+          <div class="container">
+            <a href="index.html" class="brand-logo">Logo</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul  class="right hide-on-med-and-down">
+    
+              <li><a href="store.html">Продавница</a></li>
+              <li><a href="about.html">За нас</a></li>
+    
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="store.html">Продавница</a></li>
+        <li><a href="about.html">За нас</a></li>
+      </ul>
 
 
     <div class="container">
 
         <div class="row">
-            <div class="col s6 ">
+            <div class="col s6 l6 ">
         
                 <!-- 1. Палта -->
                 <div class="card">
@@ -73,7 +79,7 @@
         
         
             <!-- Десно -->
-            <div class="col s6">
+            <div class="col s6 l6">
                 <div class="card">
                     <div class="card-image">
                         <img width="auto" height="auto" src="palta_thumbnail.jpg">
