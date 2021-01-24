@@ -14,7 +14,7 @@ function Kosula (cardImage, cardTitle, cardContent) {
       <div class="card">
         <div class="card-image">
           <img src="${cardImage}">
-          <span class="card-title">${cardTitle}</span>
+          <span class="card-title" style="background-color: black;">${cardTitle}</span>
           <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
         <div class="card-content">
@@ -26,7 +26,8 @@ function Kosula (cardImage, cardTitle, cardContent) {
 
 }
 
-new Kosula ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Kosula ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Kosula ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Kosula ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
+new Kosula ("/./images/Kosuli/kosula1.jpg", "750 ден.", "Летна кошула");
+new Kosula ("/./images/Kosuli/kosula2.jpg", "750 ден.", "Летна кошула");
+new Kosula ("/./images/Kosuli/kosula3.jpg", "750 ден.", "Летна кошула");
+new Kosula ("/./images/Kosuli/kosula4.jpg", "750 ден.", "Летна кошула");
+new Kosula ("/./images/Kosuli/kosula5.jpg", "750 ден.", "Летна кошула");

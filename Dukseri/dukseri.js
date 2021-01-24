@@ -14,7 +14,7 @@ function Dukser(cardImage, cardTitle, cardContent) {
       <div class="card">
         <div class="card-image">
           <img src="${cardImage}">
-          <span class="card-title">${cardTitle}</span>
+          <span class="card-title" style="background-color: black;">${cardTitle}</span>
           <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
         <div class="card-content">
@@ -26,7 +26,8 @@ function Dukser(cardImage, cardTitle, cardContent) {
 
 }
 
-new Dukser ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Dukser ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Dukser ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Dukser ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
+new Dukser ("/./images/Dukseri/dukser1.jpg", "1250 ден.", "Памучен дуксер");
+new Dukser ("/./images/Dukseri/dukser2.jpg", "1250 ден.", "Памучен дуксер");
+new Dukser ("/./images/Dukseri/dukser3.jpg", "1250 ден.", "Памучен дуксер");
+new Dukser ("/./images/Dukseri/dukser4.jpg", "1250 ден.", "Памучен дуксер");
+new Dukser ("/./images/Dukseri/dukser5.jpg", "1250 ден.", "Памучен дуксер");

@@ -14,7 +14,7 @@ function Bluza(cardImage, cardTitle, cardContent) {
       <div class="card">
         <div class="card-image">
           <img src="${cardImage}">
-          <span class="card-title">${cardTitle}</span>
+          <span class="card-title" style="background-color: black; font-size: xxxl">${cardTitle}</span>
           <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
         <div class="card-content">
@@ -26,7 +26,8 @@ function Bluza(cardImage, cardTitle, cardContent) {
 
 }
 
-new Bluza ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Bluza ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Bluza ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
-new Bluza ("/./palta_thumbnail.jpg", "Dukser 120", "Памучен дуксер");
+new Bluza ("/./images/Bluzi/bluza1.jpg", "650 ден.", "Блуза");
+new Bluza ("/./images/Bluzi/bluza2.jpg", "650 ден.", "Блуза");
+new Bluza ("/./images/Bluzi/bluza3.jpg", "650 ден.", "Блуза");
+new Bluza ("/./images/Bluzi/bluza4.jpg", "650 ден.", "Блуза");
+new Bluza ("/./images/Bluzi/bluza5.jpg", "650 ден.", "Блуза");
